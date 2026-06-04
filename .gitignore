@@ -1,0 +1,37 @@
+# Zed runtime/cache state. Keep this repo focused on portable config.
+db/
+debug_adapters/
+extensions/
+external_agents/
+hang_traces/
+languages/
+logs/
+node/
+prettier/
+prompts/
+threads/
+zed-crash-handler-*
+
+# Local/private files that should not be shared.
+*.log
+*.sqlite
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.env
+*.env.*
+secrets.*
+credentials.*
+tokens.*
+auth.*
+sessions.*
+cookies.*
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
